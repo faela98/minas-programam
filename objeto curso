@@ -1,0 +1,5 @@
+const curso= {nome:"Filosofia",
+perioso:"Noturno", professora:"Vanessa"};
+
+console.log (`O curso é: ${curso.nome}, o periodo é ${curso.periodo} e quem ministra é ${nome.professora}`);
+const.push

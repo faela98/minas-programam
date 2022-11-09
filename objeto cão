@@ -1,0 +1,4 @@
+const animal= {porte:"grande",
+especie:"cachorro", raca: "golden"};
+
+console.log (`A espécie do animal é: ${animal.especie}, o porte é ${animal.porte} e a raça é ${animal.raca}`);
