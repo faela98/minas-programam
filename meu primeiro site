@@ -1,0 +1,33 @@
+<html Lang= "pt-br">
+    
+<head>
+    <title> Meu Primeiro Site</title>
+    <meta charset="utf-8"> 
+</head>
+
+<body>
+<div>
+    <h1>Título Principal</h1>
+    <h2>Sub Título</h2>
+    <h3>Título que não precisa de muita relevância</h3>
+    <h4>Título que não precisa de muita relevância</h4>
+    <h5>Título que não precisa de muita relevância</h5>
+    <h6>Título que não precisa de muita relevância</h6>
+</div>
+    <p> Um texto ...</p>
+    <ol>
+        <li>Primeiro ítem da lista ordenada</li>
+        <li>Segundo ítem da lista ordenada</li>
+        <li>Terceiro ítem da lista ordenada</li>
+    </ol>
+    <ul>
+        <li>Primeiro ítem da lista NÃO ordenada</li>
+        <li>Segundo ítem da lista NÃo ordenada</li>
+    </ul>
+    <img src = "https://1.bp.blogspot.com/-H_5wKKCx1ss/XsPwqfMYuTI/AAAAAAAAC0g/jtWGUQgWlY0qkFB5heOWzcoJ2Sjp-LooQCLcBGAsYHQ/s1600/74666103_2454188944828540_4366738148824794550_n_1574090431__rend_1_1.jpg"  width="300" height="300"/>
+
+<a href="https//minasprogramam.com/" target = "_blank"> Clique Aqui</a>
+
+</body>
+
+</html>
