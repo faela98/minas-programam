@@ -1,0 +1,7 @@
+//*Desafio Ghibli
+//Utilize o fetch() para realizar uma requisição ao 
+//endpoint https://ghibliapi.herokuapp.com/films da Studios Ghibli API 
+//e popule a página que também será criados por vocês (HTML e CSS) 
+//com os dados do json que é a lista com os 22 filmes da Ghibli, 
+//você pode utilizar apenas parte dos filmes, para isso sugiro utilizar o método .slice();
+//*
