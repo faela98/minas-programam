@@ -1,0 +1,17 @@
+// projeto da natação, quem pode e nao pode competir
+
+var idade = 15;
+
+if(idade <=4){
+    console.log ('Não pode competir');
+}else if (idade >=5 && idade <=7){
+    console.log ('Faixa Etária Infantil A');
+}else if (idade >= 8 && idade <= 11){
+    console.log('Faixa Etária Infantil B');
+}else if(idade >=12 && idade <=15){
+    console.log ('Faixa Estária Juvenil A');
+}else if (idade >=16 && idade <=17){
+    console.log('Faixa Estária Juvenil B');
+}else{
+    console.log('Faixa Estária Adulto');
+}

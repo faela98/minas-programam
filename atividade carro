@@ -1,6 +1,9 @@
 //Crie um algoritmo que calcule a velocidade média de um veículo e retorne com resultado. 
-//Fórmula: Vm(Velocidade média) = distância/tempo 
+//Fórmula: Vm(Velocidade média) = distância/tempo
 
-let distancia = 20;
-let tempo = 30
-console.log (` A vm é de ${distancia / tempo}`);
+let distancia= 100;
+let tempo = 1.2;
+
+let= velocidadeMedia= distancia/tempo;
+
+console.log ("A velocidade média é:" + velocidadeMedia + "km/h" );
