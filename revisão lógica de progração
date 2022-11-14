@@ -1,0 +1,99 @@
+
+
+================= //  Relembrando  =================
+
+//Constantes e variáveis servem para armazenar valores a serem utilizados no decorrer do código.
+const umaConstante = "Aqui guardaremos um valor imultável";
+let umaVariavel = "Aqui guardaremos um valor multável";
+
+// Os operadores aritméticos são os conhecidos por nós na matemática.
+const soma = 21 + 21;
+const subtracao = 21 - 21;
+const multiplicacao = 21 * 21;
+const divisao = 21 / 21;
+
+//Além dos mais comuns cidatos acima existe também o módulo da divisão que consiste no resto da divisão de dois números.
+
+const moduloDaDivisão = 21 % 21;
+
+
+// Operadores de comparação e lógico
+// Comparação
+const estritamenteIgual = 21 === 21;
+const estritamenteDiferente = 21 !== 21;
+const maiorQue = 21 > 21;
+const maiorOuIgualQue = 21 >= 21;
+const menorQue = 21 < 21;
+const menorOuIgualQue = 21 <= 21;
+
+
+// Lógicos
+const and_e = estritamenteIgual && maiorQue;
+const or_ou = maiorQue || estritamenteDiferente;
+const not_nao = !estritamenteDiferente;
+Estrutura de Condicão
+  if(condicao) {
+    // faz algo
+  } else if (outra condicao) {
+    // faz outra coisa
+  } else {
+    // se nenhuma das condições forem atendidas
+    // faça o que tiver aqui!
+  }
+Estrutura de Repetição
+for (let i = 0; i < 10; i++) {
+  // esse trecho de código será executado enquanto i for
+  // menor que dez e a cada vez que rodar
+  // i será incrementado com +1
+}
+const contador = 0;
+while (contador < 10) {
+  // esse trecho de código será executado enquanto
+  // o contador for menor que 10. Se não tivermos cuidado
+  // poderemos cair em um loop infinito. Logo, dentro desse while
+  // precisamos incrementar o contador.
+  contador += 1;
+}
+
+// Objetos
+Os objetos são uma estrutura de dados onde podemos armazenar uma coleção de propriedades, contendo assim chave e valor.
+
+const meuObjeto = { nome: "Lisandra Cruz", apelido: "Lis", idade: 28 };
+
+
+// Arrays
+O array é uma estrutura que serve para armazenar e organizar os dados.
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8];
+const vogais = ["a", "e", "i", "o", "u"];
+const pessoas = [
+  { nome: "Lisandra Cruz", apelido: "Lis", idade: 28 },
+  { nome: "Andréa Azevedo", apelido: "Deia", idade: 52 },
+  { nome: "Dandara Lima", apelido: "Dandinha", idade: 5 },
+];
+
+
+// Funções
+
+Criar função é o ato de encapsular trechos de código que podem ser invocados ou chamados em outras partes do código, fortalecendoa assim a reutilização. Podemos criar funções de 2 maneiras:
+
+// Através do function
+function minhaFuncao() {
+  // faz alguma coisa
+}
+
+//através de arrow function
+const minhaFuncao = () => {
+  // faz alguma coisa
+};
+Perceba que as funções podem receber parametros. Os parametros são os dados necessários para sua execução. Os paramentros devem ser passados dentro do parentese. Por exemplo:
+
+// Através do function
+function soma(n1, n2) {
+  return n1 + n2;
+}
+
+//através de arrow function
+const soma = (n1, n2) => {
+  return n1 + n2;
+};
